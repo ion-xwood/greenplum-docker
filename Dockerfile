@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV GP_DB=test
 ENV GP_USER=postgres
 ENV GP_PASSWORD=postgres
-ENV GP_VERSION=6.20.3
+ENV GP_VERSION=6.21.0
 ENV GPHOME=/usr/local/greenplum-db-${GP_VERSION}
 
 RUN apt-get update -y &&\

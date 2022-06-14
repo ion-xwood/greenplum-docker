@@ -10,7 +10,7 @@ version: "2.4"
 services:
   greenplum:
     hostname: greenplum
-    image: ionxwood/greenplum:6.20.3
+    image: ionxwood/greenplum:6.21.0
     user: "root"
     restart: "always"
     ports: [ "5432:5432" ]
