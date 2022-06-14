@@ -5,7 +5,7 @@ services:
 
   greenplum:
     hostname: greenplum
-    image: ion-xwood/greenplum:6.20.3
+    image: ionxwood/greenplum:6.20.3
     user: "root"
     build:
       context: ./
