@@ -3,7 +3,8 @@
 
 This is a simple Greenplum docker image for local development.
 
-[docker-compose,yaml]
+*docker-compose.yaml*
+[yaml]
 ----
 version: "2.4"
 
