@@ -1,0 +1,4 @@
+= Greenplum Docker Image Single Node
+
+
+This is a simple Greenplum docker image for local development.
