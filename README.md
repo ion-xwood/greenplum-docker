@@ -1,11 +1,10 @@
-= Greenplum Docker Image Single Node
-
+# Greenplum Docker Image Single Node
 
 This is a simple Greenplum docker image for local development.
 
-*docker-compose.yaml*
-[yaml]
-----
+**docker-compose.yaml**
+```yaml
+---
 version: "2.4"
 
 services:
@@ -13,9 +12,6 @@ services:
     hostname: greenplum
     image: ionxwood/greenplum:6.20.3
     user: "root"
-    build:
-      context: ./
-      dockerfile: Dockerfile
     restart: "always"
     ports: [ "5432:5432" ]
     networks: [ "greenplum" ]
@@ -32,4 +28,4 @@ networks:
 
 volumes:
   greenplum:
-----
+```
