@@ -1,6 +1,6 @@
-# Greenplum Docker Image Single Node
+# Greenplum Database single node Docker image 
 
-This is a simple Greenplum docker image for local development.
+This is a simple Greenplum Database single node docker image for local development.
 
 DockerHub - https://hub.docker.com/r/ionxwood/greenplum
 
