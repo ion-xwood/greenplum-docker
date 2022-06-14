@@ -2,6 +2,8 @@
 
 This is a simple Greenplum docker image for local development.
 
+DockerHub - https://hub.docker.com/r/ionxwood/greenplum
+
 **docker-compose.yaml**
 ```yaml
 ---
